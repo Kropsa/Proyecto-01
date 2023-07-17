@@ -1,11 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+        <title>Document</title>
+    </head>
     
-</body>
-</html>
+    <body>
+        <header>
+            <nav class="nav-div">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">GALERIA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">REGISTRATE</a>
+                </li>
+    
+            </nav>
+        </header>
+        <main>
+            <div class="central">
+                <div class="introduction">
+                    <img src="./assets/bass-man-956a7141-1-1536x1024.jpg.webp" alt="">
+                    <h2 style="color: white;">BASSTORE</h2>
+                    <br>
+                    <h3 style="color: white;">Como nuestra ropa busca transmitir como nos sentimos y como queremos ser
+                        vistos
+                        tu instrumento también puede reflejar lo que deseas hacer sentir con tu música y
+                        la personalidad que quieres tener arriba del escenario. Aquí podrás encontrar el
+                        bajo que más refleje tu estilo personal.
+                    </h3>
+                </div>
+            </div>
+            <section class="gallery">
+                <div class="card_container">
+                    <div class="card" style="background-image: url(./assets/orion\ 4.png);">
+                        <div class="imagen"></div>
+                        <div class="info">
+                            <h3>MODELO</h3>
+                            <p>ORION</p>
+                        </div>
+                    </div>
+                    <div class="card" style="background-image: url(./assets/phoenix.png);">
+                        <div class="imagen"></div>
+                        <div class="info">
+                            <h3>MODELO</h3>
+                            <p>PHOENIX</p>
+                        </div>
+                    </div>
+                    <div class="card" style="background-image: url(./assets/Tom\ Araya\ FRX.png);">
+                        <div class="imagen"></div>
+                        <div class="info">
+                            <h3>MODELO</h3>
+                            <p>TOM ARAYA FRX</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Registro">
+                <h2 style="color: black;">REGISTRATE</h2 <div class="formulario">
+                <form>
+                    <ul>
+                        <li>
+                            <label for="name">NOMBRE:</label>
+                            <input type="text" id="name" name="user_name" />
+                        </li>
+                        <br>
+                        <li>
+                            <label for="mail">CORREO ELECTRONICO:</label>
+                            <input type="email" id="mail" name="user_email" />
+                        </li>
+                        <br>
+                        <button type="submit">ENVIAR</button>
+                </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer_links">
+                <ul>
+    
+                    <li>
+                        <p style="color: white;">HOME</p>
+                    </li>
+                    <br>
+                    <li>
+                        <p style="color: white;">GALERIA</p>
+                    </li>
+                    <br>
+                    <li>
+                        <p style="color: white;">REGISTRATE</p>
+                    </li>
+    
+                </ul>
+    
+            </div>
+    
+        </footer>
+    
+    </body>
+    
